@@ -1,0 +1,66 @@
+
+ body{
+     background-color:aliceblue;
+     font-size: 22px;
+     color: black;
+     
+ }
+ 
+ 
+ 
+ h1{
+     text-align: center; 
+     color: brown;
+ }
+ 
+ .list{
+     display: flex;
+     justify-content: space-evenly;
+     
+ }
+ 
+ .list li{
+     list-style: none;
+ }
+ 
+ .list li a{
+     text-decoration: none;
+     
+ }
+ 
+ 
+ a{ cursor: pointer;
+ text-decoration: none;}
+ a:visited{ color: blue;}
+ a:hover{  color: crimson;}
+ a:focus{ color: black;}
+ a:active{ color: blueviolet;}
+
+
+
+ h2{
+    text-align: center;
+    color: magenta;
+ }
+
+ span{
+    color: red;
+ }
+
+ ol{
+    line-height: 2;
+    
+ }
+
+ button{
+    background-color: black;
+    color: yellow;
+    padding: 7px;
+    border-radius: 10px;
+ }
+
+
+ footer{
+    color: brown;
+    text-align: center;
+ }

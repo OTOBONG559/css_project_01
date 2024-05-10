@@ -1,0 +1,91 @@
+body{
+    background-color:aliceblue;
+    font-size: 22px;
+    color: black;
+    
+}
+
+
+
+h1{
+    text-align: center; 
+    color: brown;
+}
+
+.list{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+    
+}
+
+.list li{
+    list-style: none;
+}
+
+.list li a{
+    text-decoration: none;
+    
+}
+
+
+a{ cursor: pointer;
+text-decoration: none;}
+a:visited{ color: blue;}
+a:hover{  color: crimson;}
+a:focus{ color: black;}
+a:active{ color: blueviolet;}
+
+
+
+h2{
+   text-align: center;
+   color: magenta;
+}
+
+span{
+   color: red;
+}
+
+
+.book{
+    text-align: center;
+    color: magenta;
+    text-transform: uppercase;
+
+}
+
+fieldset{
+    margin-right: 300px;
+    margin-left: 100px;
+}
+
+.btn1{
+    margin-right: 10px;
+    color: yellow;
+    background-color: black;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.btn2{
+    margin-right: 300px;
+    color: yellow;
+    background-color: black;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.btn3{
+    margin-right: 300px;
+    color: yellow;
+    background-color: black;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+
+footer{
+    color: brown;
+    text-align: center;
+}

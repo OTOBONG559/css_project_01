@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Global Hotels" content="Affordable hotel in lagos">
+    <meta name="description" content="if you want to book any affordable hotel in lagos, the Global Hotel is here for you.">
+    <title>Global Hotel</title>
+    <link rel="icon" href="images/logo.webp" type="image/x-icon">
+    <link rel="stylesheet" href="./booking.css">
+<body>
+
+<header>
+    
+    <h1 style="text-align: center;">GLOBAL HOTEL</h1>
+
+<nav>     
+        <ul class="list">
+            <li><a href="./home.html#about">About</a></li>
+            <li> <a href="./services.html">Our Services</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+            <li><a href="./career.html">Our Career Path</a></li>
+        </ul>
+</nav>
+
+</header>
+
+    <hr>
+
+<main>
+            <!-- BOOKING FORM -->
+
+            <br>
+    <div>
+        <p  class="book">Send Your Bookings</p>
+
+    <form>
+            
+        <fieldset>
+            <legend>Fill The Following</legend>
+            <p>
+                <label for="fname">Full Name</label>
+                <input name="fname" id="fname" placeholder="Your Name" type="text" required autocomplete="on">
+            </p>
+            <p>
+                <label for="email">Email Address</label>
+                <input name="email" id="email" placeholder="Your Email Address" type="text" required autocomplete="on">
+            </p>
+            <p>
+                <label for="phone">Phone Number</label>
+                <input name="phone" id="phone" placeholder="Phone Number" type="number" required autocomplete="on">
+            </p>
+
+            <p>
+                <label for="room">Which room are you interested in?</label>
+                <select name="room" id="room">
+                <option selected>Platinum Room</option>
+                <option>Silver Room</option>
+                <option>Bronze Room</option>
+                <option>Shared Apartment</option>
+                </select>
+            </p>
+
+            <p>Duration of Stay:</p>
+                <p>
+                    <input type="checkbox">
+                <label for="days">Days</label>
+                <input name="days" id="days" type="number" >
+             </p>
+           
+             <p>
+                <input type="checkbox">
+                <label for="weeks">Weeks</label>
+                <input name="weeks" id="weeks" type="number">
+             </p>
+          
+            
+            <p>
+                <input type="checkbox">
+                <label for="months">Months</label>
+                <input name="months" id="months" type="number">
+             </p>
+           
+        </fieldset>
+
+        <p style="text-align: right;">
+            <button type="submit" class="btn1">Click To Book</button>
+            <button type="reset" class="btn2">Reset</button>
+        </p>
+    
+    </form>
+
+
+            <!-- PAYMENT FORM -->
+</div>
+    <br>
+<div>
+    <form>
+        <fieldset>
+           <legend>Kindly Make Payment to Confrom Bookings</legend>
+        
+           <p>
+            <label for="nacard">Name on the Card:</label>
+            <input type="text" name="nacard" id="nacard" placeholder="OTOBONG ETIM ASUQUO" style="width: 300px;">
+        </p>
+        <p>
+            <label for="nucard">Card Number:</label>
+            <input type="number" name="nucard" id="nucard" placeholder="5555-5555-5555-5555" style="width: 300px;">
+        </p>
+
+        <p>
+            <label for="excard">Exp Date:</label>
+            <input type="number" id="excard" name="excard" placeholder="4505">
+            <label for="cvvcard">CVV:</label>
+            <input type="password" name="cvvcard" id="cvvcard" >
+        </p>
+       
+        </fieldset>
+    <p style="text-align: right;">
+        <button type="submit" class="btn2">Make Payment</button>
+    </p>
+    </form>
+</div>
+
+        <!-- BACK TO TOP LINK -->
+    <br><br><br>
+    <br><br><br>
+
+    <a href="#">Back To Top</a>
+    <hr>
+
+</main>
+
+    <footer>
+
+        
+            © 2024 Global Hotel Ltd
+       
+    </footer>
+
+</body>
+
+</html>

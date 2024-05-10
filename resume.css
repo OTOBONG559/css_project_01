@@ -1,0 +1,54 @@
+
+body{
+font-size: 22px;
+background-color: aliceblue;
+color: black;
+ }
+
+
+ h1{
+    text-align: center;
+    color: brown;
+    text-decoration: none;
+    margin: 5px;
+}
+
+
+ul{
+    
+    display: flex;
+    justify-content: space-evenly;
+}
+
+li{
+    margin-top: 5px;
+    margin-bottom: -20px;
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+a{ cursor: pointer;
+    text-decoration: none;}
+    a:visited{ color: blue;}
+    a:hover{  color: crimson;}
+    a:focus{ color: black;}
+    a:active{ color: blueviolet;}
+    
+h2{
+    text-align: center;
+}
+
+button{
+    color: yellow;
+    background-color: black;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+
+footer{
+    color: brown;
+    text-align: center;
+}

@@ -1,0 +1,93 @@
+/* Home Page */
+
+*{
+   padding: 0; 
+}
+
+body{
+    background-color:aliceblue;
+    font-size: 22px;
+    color: black;
+    
+}
+
+
+
+h1{
+    text-align: center; 
+    color: brown;
+}
+
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+ul li{
+    list-style: none;
+}
+
+ul li a{
+    text-decoration: none;
+    
+}
+
+
+a{ cursor: pointer;
+text-decoration: none;}
+a:visited{ color: blue;}
+a:hover{  color: crimson;}
+a:focus{ color: black;}
+a:active{ color: blueviolet;}
+
+
+
+figcaption{
+    text-align: center;
+    color: red;
+}
+   
+h2{
+    text-align: center;
+    color: blue;
+    
+}
+
+p{
+    text-align: justify;
+}
+
+span{
+    color: red;
+}
+
+.core{
+    text-align: center;
+    color: blue;
+}
+
+
+.core1{
+    line-height: 1.7;
+    color: black;
+}
+
+
+.vision{
+    text-align: center;
+}
+
+.mission{
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    color: brown;
+}
+
+        
+        
+       
+    
